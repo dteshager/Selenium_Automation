@@ -51,6 +51,6 @@ This script automates the end-to-end bill payment process using **Selenium WebDr
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/automated-bill-payment.git
-cd automated-bill-payment
+git clone https://github.com/dteshager/Selenium_Automation.git
+cd Selenium_Automation
 
