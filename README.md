@@ -16,7 +16,7 @@ This script automates the end-to-end bill payment process using **Selenium WebDr
 - **Selenium WebDriver**
 - **ChromeDriver / GeckoDriver**
 - **dotenv** (for managing credentials securely)
-- *smtplib* for email confirmation
+- **smtplib** for email confirmation
   
 
 ---
@@ -41,7 +41,7 @@ This script automates the end-to-end bill payment process using **Selenium WebDr
 2. Loads secure credentials from `.env` file.
 3. Launches browser using Selenium and logs into the payment website.
 4. Navigates to the payment page, selects amount/method, and submits.
-5. (Optional) Sends confirmation email or logs event to a database.
+5. Sends confirmation email.
 6. Query tool allows you to view and export transaction history.
 
 ---
